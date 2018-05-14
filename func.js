@@ -281,41 +281,6 @@ function ex19_clean() {
 
 
 }
-
-function ex20() {
-    var n1 = document.getElementById("ex20_n1").value;
-    var n2 = document.getElementById("ex20_n2").value;
-
-    document.getElementById("ex20_result").innerHTML = "A medida da escada é, " + n2 + "<br />" +
-        "A distância para alcançar a ponta da escada é, " + (Math.cos(Number(n1)) * Number(n2)).toFixed(2) + " metros ";
-
-}
-
-function ex20_clean() {
-    document.getElementById("ex20_n1").value = "";
-    document.getElementById("ex20_n2").value = "";
-    document.getElementById("ex20_result").innerHTML = "";
-
-
-}
-
-function ex21() {
-    var n1 = document.getElementById("ex21_n1").value;//hora trabalhada
-    var n2 = document.getElementById("ex21_n2").value;//salario minimo
-
-    document.getElementById("ex21_result").innerHTML = "O salário bruto é, R$" + ((Number(n2)/8) * n1).toFixed(2) +
-        "O salário a receber é, R$" + ((Number(n2)/4) + ((Number(n2)/8) * n1)).toFixed(2);
-
-}
-
-function ex21_clean() {
-    document.getElementById("ex21_n1").value = "";
-    document.getElementById("ex21_n2").value = "";
-    document.getElementById("ex21_result").innerHTML = "";
-
-
-}
-
 function ex22() {
     var n1 = document.getElementById("ex22_n1").value;
 
